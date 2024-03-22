@@ -1,0 +1,111 @@
+import image1 from '../Assets/job1.png';
+import image2 from '../Assets/job2.png';
+import image3 from '../Assets/job3.png';
+import image4 from '../Assets/job4.png';
+import image5 from '../Assets/job5.png';
+
+const jobListings = [
+    {
+      id: 1,
+      image: image1,
+      title: "Developer & expert in java c++",
+      employmentType: "Full Time",
+      datePosted: "2024-02-08",
+      postedBy: "Slack",
+      location: "Spain, Barcelona",
+      subRoles: "Developer, Coder",
+    },
+    {
+      id: 2,
+      image: image2,
+      title: "second job title",
+      employmentType: "Part Time",
+      datePosted: "2024-02-07",
+      postedBy: "Jane Doe",
+      location: "Location 2",
+      subRoles: "Sub Roles 2",
+    },
+    {
+        id: 3,
+        image: image3,
+        title: "Job Title 1",
+        employmentType: "Full Time",
+        datePosted: "2024-02-08",
+        postedBy: "John Doe",
+        location: "Location 1",
+        subRoles: "Sub Roles 1",
+      },
+      {
+        id: 4,
+        image: image4,
+        title: "Job Title 2",
+        employmentType: "Part Time",
+        datePosted: "2024-02-07",
+        postedBy: "Jane Doe",
+        location: "Location 2",
+        subRoles: "Sub Roles 2",
+      },
+      {
+        id: 5,
+        image: image5,
+        title: "Job Title 1",
+        employmentType: "Full Time",
+        datePosted: "2024-02-08",
+        postedBy: "John Doe",
+        location: "Location 1",
+        subRoles: "Sub Roles 1",
+      },
+      {
+        id: 6,
+        image: image1,
+        title: "Developer & expert in java c++",
+        employmentType: "Full Time",
+        datePosted: "2024-02-08",
+        postedBy: "Slack",
+        location: "Spain, Barcelona",
+        subRoles: "Developer, Coder",
+      },
+      {
+        id: 7,
+        image: image2,
+        title: "seventh job",
+        employmentType: "Part Time",
+        datePosted: "2024-02-07",
+        postedBy: "Jane Doe",
+        location: "Location 2",
+        subRoles: "Sub Roles 2",
+      },
+      {
+          id: 8,
+          image: image3,
+          title: "Job Title 1",
+          employmentType: "Full Time",
+          datePosted: "2024-02-08",
+          postedBy: "John Doe",
+          location: "Location 1",
+          subRoles: "Sub Roles 1",
+        },
+        {
+          id: 9,
+          image: image4,
+          title: "Job Title 2",
+          employmentType: "Part Time",
+          datePosted: "2024-02-07",
+          postedBy: "Jane Doe",
+          location: "Location 2",
+          subRoles: "Sub Roles 2",
+        },
+        {
+          id: 10,
+          image: image5,
+          title: "Job Title 1",
+          employmentType: "Full Time",
+          datePosted: "2024-02-08",
+          postedBy: "John Doe",
+          location: "Location 1",
+          subRoles: "Sub Roles 1",
+        },
+  ];
+  
+  export default jobListings;
+  

@@ -1,0 +1,27 @@
+@keyframes jump {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+
+.animated-bg {
+    background: rgb(70,55,105);
+    background: linear-gradient(90deg, #463769 0%, rgba(143,145,138,1) 50%, rgba(255,134,96,1) 100%);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
